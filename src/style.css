@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+#chatbot {
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  #chatbot {
+    height: calc(100vh - 48px);
+  }
+}
