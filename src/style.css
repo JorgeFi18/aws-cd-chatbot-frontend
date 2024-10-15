@@ -13,5 +13,6 @@
 @media (min-width: 768px) {
   #chatbot {
     height: calc(100vh - 48px);
+    height: 100dvh;
   }
 }
