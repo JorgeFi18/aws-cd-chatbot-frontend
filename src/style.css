@@ -8,11 +8,11 @@
 
 #chatbot {
   height: 100vh;
+  height: 100dvh;
 }
 
 @media (min-width: 768px) {
   #chatbot {
     height: calc(100vh - 48px);
-    height: calc(100dvh - 48px);
   }
 }
