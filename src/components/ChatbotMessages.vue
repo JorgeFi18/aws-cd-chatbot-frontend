@@ -13,5 +13,6 @@ import { store } from '../store';
       <FontAwesomeIcon :style="{color: 'rgb(29 78 216)'}" icon="gear" size="md" spin />
       <p class="text-blue-700">Generando respuesta</p>
     </div>
+    <div id="scroll-to-bottom"></div>
   </section>
 </template>

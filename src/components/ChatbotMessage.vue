@@ -17,7 +17,7 @@ const isChatbot = ref(message.sender === "chatbot");
       <p class="mt-[5px] text-xs">{{isChatbot ? "AWS Bot" : "Tú"}}</p>
     </div>
     <div
-      class="max-w-[40%] p-4 rounded-lg"
+      class="p-4 rounded-lg max-w-[90%] md:max-w-[40%]"
       :class="[isChatbot ? 'bg-blue-700 text-white ml-[34px] rounded-tl-none': 'bg-white text-black mr-[34px] rounded-tr-none']"
     >
       {{ message.content }}

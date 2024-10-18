@@ -29,6 +29,10 @@ export const initSocket = () => {
       setLoading(false);
     }
     addMessage(message);
+    const scrollToBottom = document.getElementById('scroll-to-bottom')
+    if (scrollToBottom) {
+      scrollToBottom.scrollIntoView({behavior: 'smooth'})
+    }
   });
 }
 
