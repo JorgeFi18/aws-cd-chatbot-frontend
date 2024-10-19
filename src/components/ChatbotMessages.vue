@@ -11,7 +11,7 @@ import { store } from '../store';
       class="flex items-center gap-[5px] ml-[14px]"
     >
       <FontAwesomeIcon :style="{color: 'rgb(29 78 216)'}" icon="gear" size="md" spin />
-      <p class="text-blue-700">Generando respuesta</p>
+      <p class="text-blue-700">Estamos analizando tu consulta</p>
     </div>
     <div id="scroll-to-bottom"></div>
   </section>
